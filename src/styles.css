@@ -21,12 +21,9 @@ ul {
     font-weight: bold;
 }
 
-.price {
-    color: red;
-}
-
 .desc, 
-.price {
+.price,
+.contact {
     padding-left: 30px;
 }
 
@@ -34,11 +31,13 @@ li {
     margin: 3px;
 }
 
-.price {
+.price, .contact {
+    color: red;
     text-decoration: underline;
     margin-bottom: 20px;
 }
 
-.price:hover {
+.price:hover,
+.contact:hover {
     opacity: 0.6;
 }
