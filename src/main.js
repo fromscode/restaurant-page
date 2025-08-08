@@ -1,6 +1,8 @@
 import './styles.css';
 import picture from './assets/restaurant.jpg';
-import { loadPage } from './pageLoad.js';
+import { loadHome } from './home.js';
+import { loadMenu } from './menu.js';
 
 console.log('hrllow');
-loadPage();
+loadHome();
+loadMenu();

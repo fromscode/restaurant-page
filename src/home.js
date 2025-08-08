@@ -1,6 +1,6 @@
 import restaurantPicture from './assets/restaurant.jpg';
 
-const loadPage = function () {
+const loadHome = function () {
     const contentDiv = document.querySelector("#content");
 
     const img = document.createElement("img");
@@ -21,4 +21,4 @@ const loadPage = function () {
     contentDiv.append(p);
 }
 
-export {loadPage};
+export {loadHome};
